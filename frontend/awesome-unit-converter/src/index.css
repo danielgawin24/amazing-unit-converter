@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+
+input,
+label,
+select {
+	display: block;
+	padding: 3px;
+	margin: 3px 0px;
+	width: 100%;
+}
+
+select:hover {
+	cursor: pointer;
+}
+
+.converterContainer {
+	/* whole box */
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	border: 3px rgba(50, 50, 50, 0.6) solid;
+	border-radius: 5px;
+	width: 325px;
+	justify-content: center;
+	align-items: center;
+}
+
+.selectionContainer {
+	/* unit selection box */
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+	margin: 5px 0px;
+}
+.navBarLink {
+	color: black;
+	text-decoration: none;
+}
+.navBarLinkActive {
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.navBarLink:visited {
+	color: black;
+}
+
+.converter-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 240px;
+}
+
+.convertBtnInput {
+	font-weight: bold;
+	font-size: large;
+	padding: 10px;
+	background-color: rgb(255, 179, 72);
+	cursor: pointer;
+	border: 1px solid black;
+	border-radius: 7px;
+}
+.convertBtnInput:active {
+	background-color: rgb(255, 200, 72);
+}
+
+.functionButtons {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.functionButton {
+	width: 49%;
+	background-color: lightgray;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.functionButton:hover {
+	cursor: pointer;
+}
+.functionButton:active {
+	background-color: rgb(225, 225, 225);
+}
+
+.errorMsg {
+	font-size: smaller;
+	width: 100%;
+	color: red;
+	margin: 0;
+	margin-bottom: 3px;
+}
