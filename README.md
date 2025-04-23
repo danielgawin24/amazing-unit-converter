@@ -1,5 +1,7 @@
 <h1>Awesome Unit Converter</h1>
 
+<p>Inspiration: https://roadmap.sh/projects/unit-converter</p>
+
 This projects exists because I thought everything was too hard for me, so I decided to build something so simple I won't have any excuses not to build it. It's converting units from 3 categories: length, weight, and temperature.
 
 Tools needed to run: Node.js, Maven, Spring Boot, React
